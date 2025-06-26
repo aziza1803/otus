@@ -1,0 +1,15 @@
+ Otus - 2025-06-26 07:43:58 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/c/ci43029/public_html/otus/title.php:12
+----------
+
+Otus - 2025-06-26 07:44:48 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/c/ci43029/public_html/otus/title.php:12
+----------
+
+Otus - 2025-06-26 07:51:58 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/c/ci43029/public_html/otus/title.php:6
+----------
+
