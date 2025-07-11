@@ -1,0 +1,176 @@
+/* --- Контейнер формы --- */
+.doctor-add-form {
+    background-color: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 30, 80, 0.08);
+    max-width: 500px;
+    margin: 1rem auto; /* Центрирование формы */
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem; /* Расстояние между элементами */
+}
+
+/* --- Заголовок формы --- */
+.doctor-add-form + h2, /* Для случая, когда h2 перед формой */
+h2 { /* Общий стиль для h2, если он внутри */
+    text-align: center;
+    color: #334155;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/* --- Общие стили для полей ввода и списка --- */
+.doctor-add-form input[type="text"],
+.doctor-add-form select[multiple] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #d1d9e6;
+    border-radius: 8px;
+    background-color: #fdfdff;
+    color: #334155;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    box-sizing: border-box; /* Чтобы padding не влиял на ширину */
+}
+
+/* --- Стили для плейсхолдера --- */
+.doctor-add-form input::placeholder {
+    color: #94a3b8;
+}
+
+/* --- Эффект при фокусе (когда пользователь кликает на поле) --- */
+.doctor-add-form input[type="text"]:focus,
+.doctor-add-form select[multiple]:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* --- Стилизация списка с множественным выбором --- */
+.doctor-add-form select[multiple] {
+    height: 150px; /* Задаем высоту, чтобы список не был слишком большим */
+}
+
+/* --- Опции внутри списка --- */
+.doctor-add-form select[multiple] option {
+    padding: 8px 12px;
+}
+
+/* --- Кнопка "Сохранить" --- */
+.doctor-add-form input[type="submit"] {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #3b82f6; /* Акцентный синий цвет */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* --- Эффект при наведении на кнопку --- */
+.doctor-add-form input[type="submit"]:hover {
+    background-color: #2563eb; /* Чуть темнее при наведении */
+}
+
+/* --- Эффект при нажатии на кнопку --- */
+.doctor-add-form input[type="submit"]:active {
+    transform: scale(0.99); /* Легкое "вдавливание" */
+}
+
+
+/* --- Общие стили для секции --- */
+.doctors {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* --- Заголовок секции --- */
+.doctors h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.doctors h1 a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease;
+}
+
+.doctors h1 a:hover {
+    color: #3b82f6;
+}
+
+/* --- Контейнер для кнопок --- */
+.add-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+/* --- Стили для кнопок добавления --- */
+.add-buttons button {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid #d1d9e6;
+    background-color: #ffffff;
+    color: #334155;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.add-buttons button:hover {
+    background-color: #3b82f6;
+    color: #ffffff;
+    border-color: #3b82f6;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(59, 130, 246, 0.1);
+}
+
+/* --- Сетка для карточек --- */
+.cards-list {
+    display: grid;
+    /* Адаптивная сетка: минимум 250px на карточку, максимум 1fr */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem; /* Расстояние между карточками */
+}
+
+/* --- Стилизация отдельной карточки --- */
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 2.5rem 1.5rem;
+    text-decoration: none;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #3b82f6;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
+}
+
+/* --- Текст внутри карточки --- */
+.card .fio {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1e293b;
+    text-align: center;
+}

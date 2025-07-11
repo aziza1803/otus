@@ -1,0 +1,7 @@
+{
+  "name": "aziza/otus",
+  "description": "Мой первый проект на Composer",
+  "require": {
+    "symfony/var-dumper": "^7.3"
+  }
+}
