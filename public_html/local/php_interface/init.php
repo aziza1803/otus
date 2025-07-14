@@ -6,21 +6,9 @@ if (file_exists(__DIR__ . '/../../vendor/autoload.php')){
 }
 
 include_once __DIR__ . '/../app/autoload.php';
-
-// foreach([
-// 	__DIR__.'/otus/classes/lists/DoctorsPropertyValuesTable.php',
-//     __DIR__.'/otus/classes/lists/ProceduresPropertyValuesTable.php',
-//     __DIR__.'/otus/classes/AbstractIblockPropertyValuesTable.php',
-
-// ]
-// as $filePath){
-
-//     if (file_exists($filePath))
-//     {
-//         require_once($filePath);
-//     }
-// }
-// unset($filePath);
+if (file_exists(__DIR__ . '/src/autoloader.php')) {
+    require_once __DIR__ . '/src/autoloader.php';
+}
 
 // вывод данных 
 function pr($var, $type = false) {

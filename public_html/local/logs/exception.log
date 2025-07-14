@@ -2036,3 +2036,236 @@ LEFT JOIN `b_iblock_element` `models_lists_procs_property_values_element` ON `mo
 	/home/c/ci43029/public_html/doctors/index.php:100
 ----------
 
+Otus - 2025-07-11 13:09:54 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Orm\AuthorTable" not found (0)
+/home/c/ci43029/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
+#0: eval
+	/home/c/ci43029/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ci43029/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+Otus - 2025-07-11 14:02:05 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ObjectException] 
+Incorrect date: 19,09,2020 (500)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/type/date.php:33
+#0: Bitrix\Main\Type\Date->__construct(string)
+	/home/c/ci43029/public_html/bitrix/modules/perfmon/admin/perfmon_row_edit.php:551
+#1: require(string)
+	/home/c/ci43029/public_html/bitrix/admin/perfmon_row_edit.php:2
+----------
+
+Otus - 2025-07-14 09:25:56 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ObjectException] 
+Incorrect date: 15.03,2018 (500)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/type/date.php:33
+#0: Bitrix\Main\Type\Date->__construct(string)
+	/home/c/ci43029/public_html/bitrix/modules/perfmon/admin/perfmon_row_edit.php:551
+#1: require(string)
+	/home/c/ci43029/public_html/bitrix/admin/perfmon_row_edit.php:2
+----------
+
+Otus - 2025-07-14 09:57:17 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `YEARS` (YEARS) for \Otus\Orm\Book Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:37
+----------
+
+Otus - 2025-07-14 10:04:15 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PUBLISHER_DATE` (PUBLISHER_DATE) for \Otus\Orm\Book Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:37
+----------
+
+Otus - 2025-07-14 10:08:27 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `FIRST_NAME` (DOCTOR_RECOMMENDS.FIRST_NAME) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:37
+----------
+
+Otus - 2025-07-14 10:11:47 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `FIRST_NAME` (DOCTOR_RECOMMENDS.FIRST_NAME.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:37
+----------
+
+Otus - 2025-07-14 10:12:09 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `FIRST_NAME` (DOCTOR_RECOMMENDS.FIRST_NAME.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:37
+----------
+
+Otus - 2025-07-14 10:21:31 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+Reference chain `ref.IBLOCK_PROPERTY.CODE` is not allowed here. First-level definitions only. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:3091
+#0: Bitrix\Main\ORM\Query\Query->prepareJoinFilterReference(object, string, string, string, string, boolean)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2124
+#1: Bitrix\Main\ORM\Query\Query->buildJoinMap()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2498
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:37
+----------
+
+Otus - 2025-07-14 10:23:59 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token ";", expecting "]" (0)
+/home/c/ci43029/public_html/local/php_interface/src/Otus/Orm/BookTable.php:52
+#0: {closure}(string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/entity.php:123
+#1: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/entity.php:108
+#2: Bitrix\Main\ORM\Entity::getInstance(string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:259
+#3: Bitrix\Main\ORM\Query\Query->__construct(string)
+	/home/c/ci43029/public_html/custom-orm-read.php:14
+----------
+
+Otus - 2025-07-14 14:10:43 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function va() (0)
+/home/c/ci43029/public_html/custom-orm-read.php:47
+----------
+
+Otus - 2025-07-14 15:21:20 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROCEDURES` (DOCTOR_RECOMMENDS.PROCEDURES.ELEMENT.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:25
+----------
+
+Otus - 2025-07-14 15:26:03 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROC_IDS_MULTI` (DOCTOR_RECOMMENDS.PROC_IDS_MULTI.ELEMENT.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:26
+----------
+
+Otus - 2025-07-14 15:27:00 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROC_IDS_MULTI` (DOCTOR_RECOMMENDS.PROC_IDS_MULTI.ELEMENT.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:30
+----------
+
+Otus - 2025-07-14 15:31:25 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROC_IDS_MULTI` (DOCTOR_RECOMMENDS.PROC_IDS_MULTI.ELEMENT.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:30
+----------
+
+Otus - 2025-07-14 15:33:07 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROC_IDS_MULTI` (DOCTOR_RECOMMENDS.PROC_IDS_MULTI.ELEMENT.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:30
+----------
+
+Otus - 2025-07-14 15:33:11 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROC_IDS_MULTI` (DOCTOR_RECOMMENDS.PROC_IDS_MULTI.ELEMENT.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:30
+----------
+
+Otus - 2025-07-14 15:36:49 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROC_IDS_MULTI` (DOCTOR_RECOMMENDS.PROC_IDS_MULTI.ELEMENT.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:30
+----------
+
+Otus - 2025-07-14 15:38:22 - Host: ci43029.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROC_IDS_MULTI` (DOCTOR_RECOMMENDS.PROC_IDS_MULTI.ELEMENT.*) for \Bitrix\Iblock\Elements\Elementdoctors Entity. (100)
+/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ci43029/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ci43029/public_html/custom-orm-read.php:30
+----------
+
